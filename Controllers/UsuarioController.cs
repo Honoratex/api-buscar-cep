@@ -8,7 +8,7 @@ using System.Web.Http;
 
 namespace BuscarCepApi.Controllers
 {
-    public class ValuesController : ApiController
+    public class UsuarioController : ApiController
     {
         // GET api/values
         public IEnumerable<string> Get(string login, string senha)
